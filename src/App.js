@@ -18,16 +18,29 @@ function App() {
       <Route exact path='/'>
         <Home/>
       </Route>
+
       <Route exact path='/hw20-portfolio-react'>
         <Home/>
+      </Route>
+
+      <Route path='/hw20-portfolio-react/conteduction'>
+        <ContEduction/>
       </Route>
 
       <Route path='/conteduction'>
         <ContEduction/>
       </Route>
 
+      <Route path='/hw20-portfolio-react/experince'>
+        <Resume/>
+      </Route>
+
       <Route path='/experince'>
         <Resume/>
+      </Route>
+
+      <Route path='/hw20-portfolio-react/portfolio'>
+        <Portfolio/>
       </Route>
 
       <Route path='/portfolio'>
