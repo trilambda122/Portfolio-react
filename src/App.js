@@ -18,6 +18,9 @@ function App() {
       <Route exact path='/'>
         <Home/>
       </Route>
+      <Route exact path='/hw20-portfolio-react'>
+        <Home/>
+      </Route>
 
       <Route path='/conteduction'>
         <ContEduction/>
