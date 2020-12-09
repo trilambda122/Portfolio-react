@@ -1,5 +1,5 @@
 import React from 'react'
-
+import {Link} from 'react-router-dom'
 export default function header() {
   return (
     <div>
@@ -11,10 +11,28 @@ export default function header() {
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span className="navbar-toggler-icon"></span></button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav">
-                <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#about">About</a></li>
-                <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
-                <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#certifactions">Continuing Education</a></li>
-                <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#Portfolio">Portfolio</a></li>
+            <Link to='/'>
+                <li className="nav-item"><a className="nav-link js-scroll-trigger">About</a></li>
+            </Link>
+            
+            <Link to="/experince">
+            <li className="nav-item"><a className="nav-link js-scroll-trigger">Experience</a></li>
+            </Link>    
+                
+            <Link to="/conteduction">
+            <li className="nav-item"><a className="nav-link js-scroll-trigger">Continuing Education</a></li>
+            </Link>    
+
+            <Link to="/portfolio">
+            <li className="nav-item"><a className="nav-link js-scroll-trigger">Portfolio</a></li>
+            </Link>   
+                
+    
+          
+            
+              
+                
+               
 
             </ul>
         </div>

@@ -19,7 +19,7 @@ function App() {
         <Home/>
       </Route>
 
-      <Route path='/about'>
+      <Route path='/conteduction'>
         <ContEduction/>
       </Route>
 
