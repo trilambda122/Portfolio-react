@@ -8,6 +8,28 @@ export default function Portfolio() {
             <div className="resume-section-content">
                 <h2 className="mb-5">Portfolio Projects</h2>
 
+
+    {/*  <!-- User Directory--> */}
+                            <div className="row">
+                <div className="d-flex flex-column flex-md-row justify-content-between">
+                    <div className="flex-grow-1">
+                        <div className="m-2 card">
+                            <div className="card-header">
+                                <h3 className="card-title">User Directory Mobile App</h3>
+                            </div>
+                            <a href="#"> <img className="portfolio-img card-img-top" src="assets/img/userdir.png" alt="Employee Tracking App"/>
+                            </a>
+                            <div className="card-body">
+                                <p className="card-text">Stay in Touch</p>
+                            </div>
+                            <div className="card-footer text-muted">
+                                <a href="https://github.com/trilambda122/hw12-Employee-tracker">Check out the repo here</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
  {/* <!-- Docket Master --> */}
                     <div className="row">
                     <div className="d-flex flex-column flex-md-row justify-content-between">
@@ -92,18 +114,18 @@ export default function Portfolio() {
                 </div>
 
 
-                     {/*  <!-- User Directory--> */}
+                     {/*  <!--Buger APP--> */}
                      <div className="row">
                     <div className="d-flex flex-column flex-md-row justify-content-between">
                         <div className="flex-grow-1">
                             <div className="m-2 card">
                                 <div className="card-header">
-                                    <h3 className="card-title">User Directory Mobile App</h3>
+                                    <h3 className="card-title">BURGERS</h3>
                                 </div>
-                                <a href="#"> <img className="portfolio-img card-img-top" src="assets/img/userdir.png" alt="Employee Tracking App"/>
+                                <a href="#"> <img className="portfolio-img card-img-top" src="assets/img/BurgerApp.png" alt="Employee Tracking App"/>
                                 </a>
                                 <div className="card-body">
-                                    <p className="card-text">Stay in Touch</p>
+                                    <p className="card-text">YUM YUM</p>
                                 </div>
                                 <div className="card-footer text-muted">
                                     <a href="https://github.com/trilambda122/hw12-Employee-tracker">Check out the repo here</a>
