@@ -113,7 +113,7 @@ export default function Resume() {
                         </ul>
 
                     </div>
-                    <div className="flex-shrink-0"><span className="text-primary">July 2010 - December 2011</span></div>
+                    <div className="flex-shrink-0"><span className="text-primary">March 2000 - September 2009</span></div>
                 </div>
 
             </div>
