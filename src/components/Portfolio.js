@@ -1,6 +1,4 @@
 import React from 'react'
-import DocketMaster from './portfolio/docketmaster'
-import WeatherApp from './portfolio/docketmaster'
 export default function Portfolio() {
   return (
     <div>
@@ -17,7 +15,7 @@ export default function Portfolio() {
                             <div className="card-header">
                                 <h3 className="card-title">User Directory Mobile App</h3>
                             </div>
-                            <a href="#"> <img className="portfolio-img card-img-top" src="assets/img/userdir.png" alt="Employee Tracking App"/>
+                            <a href="https://trilambda122.github.io/hw19-user-directory/"> <img className="card-img-top portfolio-img"  src="assets/img/userdir.png" alt="Employee Tracking App"/>
                             </a>
                             <div className="card-body">
                                 <p className="card-text">Stay in Touch</p>

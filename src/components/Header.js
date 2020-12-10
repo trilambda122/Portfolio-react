@@ -1,5 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+
+
 export default function header() {
   return (
     <div>
@@ -21,22 +23,30 @@ export default function header() {
                 
             <Link to="/conteduction">
             <li className="nav-item"><a className="nav-link js-scroll-trigger">Continuing Education</a></li>
+            </Link> 
+               
+            <Link to="/leadership">
+            <li className="nav-item"><a className="nav-link js-scroll-trigger">Leadership Values</a></li>
+            </Link>  
+
+             <Link to="/affiliations">
+            <li className="nav-item"><a className="nav-link js-scroll-trigger">Professional Affiliations</a></li>
             </Link>    
 
             <Link to="/portfolio">
             <li className="nav-item"><a className="nav-link js-scroll-trigger">Portfolio</a></li>
-            </Link>   
-                
-    
-          
+            </Link>  
+              <a href="./assets/Shane_Schilling_Resume.pdf">
+                  <li className="nav-item"><a  className="nav-link js-scroll-trigger" >Download Resume</a></li>
+              </a>
             
-              
-                
-               
 
             </ul>
+        
+           
         </div>
     </nav>
+   
     </div>
   )
 }

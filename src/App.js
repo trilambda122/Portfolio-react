@@ -8,7 +8,8 @@ import Header from "./components/Header"
 import Portfolio from "./components/Portfolio"
 import Resume from "./components/Resume"
 import Error from "./components/Error"
-
+import Leadership from './components/Leadership'
+import Affiliations from './components/Affiliations'
 function App() {
   return (
   <Router basename={process.env.PUBLIC_URL}>
@@ -46,6 +47,23 @@ function App() {
       <Route path='/portfolio'>
         <Portfolio/>
       </Route>
+
+      <Route path='/hw20-portfolio-react/leadership'>
+        <Leadership/>
+      </Route>
+
+      <Route path='/leadership'>
+        <Leadership/>
+      </Route>
+
+      <Route path='/hw20-portfolio-react/affiliations'>
+        <Affiliations/>
+      </Route>
+
+      <Route path='/affiliations'>
+        <Affiliations/>
+      </Route>
+
 
       <Route path="*">
         <Error/>
