@@ -19,12 +19,16 @@ export default function Portfolio() {
                 <h2 className="mb-5">Portfolio Projects</h2>
 
 <div className="row">
+{/* User Dir */}
                 <div className="card col-sm-6">
                     <div className="flex-grow-1">
                         <div className="m-2">
+                      
                             <div className="card-header">
-                                <h3 className="card-title">User Directory Mobile App</h3>
+                          
+                              <a href="https://trilambda122.github.io/hw19-user-directory/" target="_blank"><h3 className="card-title">User Directory Mobile App</h3></a>  
                             </div>
+                        
                            <UserdirSlider slides={UserdirData}/>
                             <div className="card-body">
                                 <p className="card-text">User directory application using react framework built with a mobile-first viewpoint. The application includes sort and search functionality along with clean styling. 
@@ -34,7 +38,7 @@ The MVP of this application was created using sample data provided by the random
                         </div>
                     </div>
                     <div className="card-footer text-muted">
-                                <a href="https://github.com/trilambda122/hw19-user-directory">Check out the repo here</a>
+                                <a href="https://github.com/trilambda122/hw19-user-directory" target="_blank">Check out the repo here</a>
                             </div>
                 </div>
 
@@ -47,14 +51,14 @@ The MVP of this application was created using sample data provided by the random
 
 {/* Soundtracks */}
 
-                <div className="card h-100 col-sm-6">
+                <div className="card col-sm-6">
                         <div className="flex-grow-1">
                             <div className='m-2'>
                                 <div className="card-header">
-                                    <h3 className="card-title">Soundtracks</h3>
+                                <a href="https://tv-soundtracks.herokuapp.com/" target="_blank"> <h3 className="card-title">Soundtracks</h3></a>
                                 </div>
                                
-                                <SoundtracksSlider slides={SoundtracksData}/>
+                              <SoundtracksSlider slides={SoundtracksData}/>
                                 <div className="card-body">
                                     <p className="card-text">Have you ever been watching a show and thought, "This show has excellent music, I would sure like to have a playlist of this!".  That's the problem Soundtracks is here to help with.  
                                     Just search for your favorite show, movie, or game, and it will create a playlist in your apple music account.  
@@ -65,7 +69,7 @@ The MVP of this application was created using sample data provided by the random
                             </div>
                         </div>
                         <div className="card-footer text-muted">
-                                    <a href="https://github.com/trilambda122/soundtrack-database">Check out the repo here</a>
+                                    <a href="https://github.com/trilambda122/soundtrack-database" target="_blank">Check out the repo here</a>
                                 </div>
                     </div>
 
@@ -75,7 +79,7 @@ The MVP of this application was created using sample data provided by the random
                         <div className="d-flex align-items-stretch">
                             <div className='m-2'>
                                 <div className="card-header">
-                                    <h3 className="card-title">Docket Master</h3>
+                                    <a href="https://pure-atoll-36836.herokuapp.com/" target="_blank"><h3 className="card-title">Docket Master</h3></a>
                                 </div>
                                 <DocketmasterSlider slides={DocketmasterData}/>
                                 <div className="card-body">
@@ -89,7 +93,7 @@ The MVP of this application was created using sample data provided by the random
                             </div>
                         </div>
                         <div className="card-footer text-muted">
-                                    <a href="https://github.com/etorres-revature/Docket_Master">Check out the repo here</a>
+                                    <a href="https://github.com/etorres-revature/Docket_Master" target="_blank">Check out the repo here</a>
                                 </div>
                     </div>
           
@@ -100,7 +104,7 @@ The MVP of this application was created using sample data provided by the random
                         <div className="flex-grow-1">
                             <div className="m-2">
                                 <div className="card-header">
-                                    <h3 className="card-title">Book Search</h3>
+                                  <a href="https://hw21-google-books-search.herokuapp.com/" target="_blank"> <h3 className="card-title">Book Search</h3></a> 
                                 </div>
                                
                             <BooksearchSlider slides={BooksearchData}/>
@@ -114,7 +118,7 @@ The MVP of this application was created using sample data provided by the random
                             </div>
                         </div>
                         <div className="card-footer text-muted">
-                                    <a href="https://github.com/trilambda122/hw21-googlebooks-search">Check out the repo here</a>
+                                    <a href="https://github.com/trilambda122/hw21-googlebooks-search" target="_blank">Check out the repo here</a>
                                 </div>
                     </div>
             
@@ -125,7 +129,7 @@ The MVP of this application was created using sample data provided by the random
                         <div className="flex-grow-1">
                             <div className="m-2">
                                 <div className="card-header">
-                                    <h3 className="card-title">Short term rental aggrgator </h3>
+                                    <a href="https://quiet-tor-69912.herokuapp.com/signin" target="_blank"><h3 className="card-title">Short term rental aggrgator </h3></a>
                                 </div>
                               
                                 <StrSlider slides={StrData}/>
@@ -139,7 +143,7 @@ The MVP of this application was created using sample data provided by the random
                             </div>
                         </div>
                         <div className="card-footer text-muted">
-                                    <a href="https://github.com/trilambda122/Pointy_Goblins">Check out the repo here</a>
+                                    <a href="https://github.com/trilambda122/Pointy_Goblins" target="_blank">Check out the repo here</a>
                                 </div>
                     </div>
              

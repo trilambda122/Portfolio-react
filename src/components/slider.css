@@ -15,7 +15,7 @@
   top: 50%;
   right: 10px;
   font-size: 3rem;
-  color: gray;
+  color: #bd5d38;
   z-index: 10;
   cursor: pointer;
   user-select: none;
@@ -26,7 +26,7 @@
   top: 50%;
   left: 10px;
   font-size: 3rem;
-  color: gray;
+  color: #bd5d38;
   z-index: 10;
   cursor: pointer;
   user-select: none;
