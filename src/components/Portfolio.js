@@ -1,4 +1,9 @@
 import React from 'react'
+import UserdirSlider from './Userdir/UserdirSlider'
+import UserdirData from './Userdir/UserdirData'
+import SoundtracksSlider from './Soundtracks/SoundtracksSlider'
+import SoundtracksData from "./Soundtracks/SoundtracksData"
+import './slider.css'
 export default function Portfolio() {
   return (
     <div>
@@ -6,56 +11,62 @@ export default function Portfolio() {
             <div className="resume-section-content">
                 <h2 className="mb-5">Portfolio Projects</h2>
 
-
-    {/*  <!-- User Directory--> */}
-                            <div className="row">
+<div className="row">
                 <div className="card col-sm-6">
                     <div className="flex-grow-1">
-                        <div className="m-2 card ">
+                        <div className="m-2">
                             <div className="card-header">
                                 <h3 className="card-title">User Directory Mobile App</h3>
                             </div>
-                            <a href="https://trilambda122.github.io/hw19-user-directory/"> <img className="card-img-top shadow portfolio-img"  src="assets/img/userdir-listing_600xAuto.png" alt="Employee Tracking App"/>
-                            </a>
+                           <UserdirSlider slides={UserdirData}/>
                             <div className="card-body">
                                 <p className="card-text">User directory application using react framework built with a mobile-first viewpoint. The application includes sort and search functionality along with clean styling. 
 The MVP of this application was created using sample data provided by the random user  API: <a href="https://randomuser.me.">https://randomuser.me.</a></p>
                             </div>
-                            <div className="card-footer text-muted">
-                                <a href="https://github.com/trilambda122/hw19-user-directory">Check out the repo here</a>
-                            </div>
+                         
                         </div>
                     </div>
+                    <div className="card-footer text-muted">
+                                <a href="https://github.com/trilambda122/hw19-user-directory">Check out the repo here</a>
+                            </div>
                 </div>
+
+
+
+
+
+
 
 
 {/* Soundtracks */}
 
-                <div className="card col-sm-6">
+                <div className="card h-100 col-sm-6">
                         <div className="flex-grow-1">
-                            <div className='m-2  card'>
+                            <div className='m-2'>
                                 <div className="card-header">
                                     <h3 className="card-title">Soundtracks</h3>
                                 </div>
-                                <a href="https://tv-soundtracks.herokuapp.com"> <img className="portfolio-img shadow card-img-top" src="assets/img/soundtracks-appleresults_600xAuto.png" alt="Vacation App"/></a>
+                               
+                                <SoundtracksSlider slides={SoundtracksData}/>
                                 <div className="card-body">
                                     <p className="card-text">Have you ever been watching a show and thought, "This show has excellent music, I would sure like to have a playlist of this!".  That's the problem Soundtracks is here to help with.  
                                     Just search for your favorite show, movie, or game, and it will create a playlist in your apple music account.  
                                     Or if you want to just watch a few songs videos, you can do that too.</p>
                                     <p> This is a React application with utilizes Apple MusicKit and Youtube APIs. </p>
                                 </div>
-                                <div className="card-footer text-muted">
-                                    <a href="https://github.com/trilambda122/soundtrack-database">Check out the repo here</a>
-                                </div>
+                               
                             </div>
                         </div>
+                        <div className="card-footer text-muted">
+                                    <a href="https://github.com/trilambda122/soundtrack-database">Check out the repo here</a>
+                                </div>
                     </div>
 
 
 {/* <!-- Docket Master --> */}
                 <div className="card col-sm-6">
-                        <div className="flex-grow-1">
-                            <div className='m-2  card'>
+                        <div className="d-flex align-items-stretch">
+                            <div className='m-2'>
                                 <div className="card-header">
                                     <h3 className="card-title">Docket Master</h3>
                                 </div>
@@ -67,11 +78,12 @@ The MVP of this application was created using sample data provided by the random
                                                             Sequelize provides the Object Relational Mapping (ORM) support. 
                                                             Express provides routing and middleware capabilities. Node.js is the runtime environment for Docket Master. HTML, CSS, Bootstrap, and Express Handlebars provide the views for user interaction and interface with Docket Master.</p>
                                 </div>
-                                <div className="card-footer text-muted">
-                                    <a href="https://github.com/etorres-revature/Docket_Master">Check out the repo here</a>
-                                </div>
+                                
                             </div>
                         </div>
+                        <div className="card-footer text-muted">
+                                    <a href="https://github.com/etorres-revature/Docket_Master">Check out the repo here</a>
+                                </div>
                     </div>
           
 
@@ -79,7 +91,7 @@ The MVP of this application was created using sample data provided by the random
               
                     <div className="card col-sm-6">
                         <div className="flex-grow-1">
-                            <div className="m-2 card">
+                            <div className="m-2">
                                 <div className="card-header">
                                     <h3 className="card-title">Book Search</h3>
                                 </div>
@@ -91,11 +103,12 @@ The MVP of this application was created using sample data provided by the random
                                     You will never have to wonder what to read next!</p>
                                     <p>The application utilizes MongoDB for the backend database and React for client-side rendering. Along with Bootstrap and customer CSS for styling</p>
                                 </div>
-                                <div className="card-footer text-muted">
-                                    <a href="https://github.com/trilambda122/hw21-googlebooks-search">Check out the repo here</a>
-                                </div>
+                               
                             </div>
                         </div>
+                        <div className="card-footer text-muted">
+                                    <a href="https://github.com/trilambda122/hw21-googlebooks-search">Check out the repo here</a>
+                                </div>
                     </div>
             
 
@@ -103,7 +116,7 @@ The MVP of this application was created using sample data provided by the random
               
                     <div className="card col-sm-6">
                         <div className="flex-grow-1">
-                            <div className="m-2 card">
+                            <div className="m-2">
                                 <div className="card-header">
                                     <h3 className="card-title">Short term rental aggrgator </h3>
                                 </div>
@@ -115,11 +128,12 @@ The MVP of this application was created using sample data provided by the random
                                     <p>The STR Aggregator is a MERN full-stack web application that utilizes web scrappers to collect information; MongoDB for the backend; Express.js for server routing; 
                                         React.js for client-side routing and views;and, Node.js for its runtime environment.</p>
                                 </div>
-                                <div className="card-footer text-muted">
-                                    <a href="https://github.com/trilambda122/Pointy_Goblins">Check out the repo here</a>
-                                </div>
+                               
                             </div>
                         </div>
+                        <div className="card-footer text-muted">
+                                    <a href="https://github.com/trilambda122/Pointy_Goblins">Check out the repo here</a>
+                                </div>
                     </div>
              
              
