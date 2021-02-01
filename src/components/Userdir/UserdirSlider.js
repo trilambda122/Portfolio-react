@@ -30,7 +30,7 @@ if (!Array.isArray(slides) || slides.length <=0){
       <RiArrowRightCircleLine className='right-arrow' onClick={nextSlide}/>
       {UserdirData.map((slide,index)=>{
         return  (
-        <div className={index === current ? '' : ''} key={index}>
+        <div className={index === current ? 'slide active' : 'slide'} key={index}>
           {index === current &&  <img  className="portfolio-img shadow card-img-top" src={slide.image} alt=''user directory preview/>}
            
         </div>
