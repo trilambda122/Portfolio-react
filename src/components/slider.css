@@ -43,8 +43,3 @@
   transition-duration: 1s;
   transform: scale((1));
 }
-
-.card-size {
-  height: 100px;
-  background-color: red;
-}

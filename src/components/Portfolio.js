@@ -3,6 +3,13 @@ import UserdirSlider from './Userdir/UserdirSlider'
 import UserdirData from './Userdir/UserdirData'
 import SoundtracksSlider from './Soundtracks/SoundtracksSlider'
 import SoundtracksData from "./Soundtracks/SoundtracksData"
+import DocketmasterSlider from "./Docketmaster/DocketmasterSlider"
+import DocketmasterData from "./Docketmaster/DocketmasterData"
+import BooksearchSlider from "./Booksearch/BooksearchSlider"
+import BooksearchData from "./Booksearch/BooksearchData"
+import StrSlider from "./STR/StrSlider"
+import StrData from "./STR/StrData"
+
 import './slider.css'
 export default function Portfolio() {
   return (
@@ -70,7 +77,7 @@ The MVP of this application was created using sample data provided by the random
                                 <div className="card-header">
                                     <h3 className="card-title">Docket Master</h3>
                                 </div>
-                                <a href="https://pure-atoll-36836.herokuapp.com/"> <img className="portfolio-img shadow card-img-top" src="assets/img/docketmaster-homepage_600xAuto.png" alt="Vacation App"/></a>
+                                <DocketmasterSlider slides={DocketmasterData}/>
                                 <div className="card-body">
                                     <p className="card-text">The integrated court system is a fast-paced, dynamic environment that changes by the moment. Docket Master helps participants to keep track of the cases, litigants, attorneys, as well as the Division the case is located and the amount of the case.
 
@@ -95,8 +102,8 @@ The MVP of this application was created using sample data provided by the random
                                 <div className="card-header">
                                     <h3 className="card-title">Book Search</h3>
                                 </div>
-                                <a href="https://hw21-google-books-search.herokuapp.com"> <img className="portfolio-img shadow card-img-top" src="assets/img/book-search-search_600xAuto.png" alt="Vacation App"/>
-                                </a>
+                               
+                            <BooksearchSlider slides={BooksearchData}/>
                                 <div className="card-body">
                                     <p className="card-text">Have you ever been wanting to read a book but at a loss for what to read! 
                                     This reading list application allows you to search and review books then add them to your favorites list. 
@@ -120,8 +127,8 @@ The MVP of this application was created using sample data provided by the random
                                 <div className="card-header">
                                     <h3 className="card-title">Short term rental aggrgator </h3>
                                 </div>
-                                <a href="https://quiet-tor-69912.herokuapp.com/signin"> <img className="portfolio-img shadow card-img-top" src="assets/img/str-listing_600xAuto.png" alt="Vacation App"/>
-                                </a>
+                              
+                                <StrSlider slides={StrData}/>
                                 <div className="card-body">
                                     <p className="card-text">Short term rental aggregator application returns listings from multiple short term rental sites for a given city. 
                                     Giving the user the power to find their best travel experience </p>
