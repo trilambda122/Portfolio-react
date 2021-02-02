@@ -129,7 +129,7 @@ The MVP of this application was created using sample data provided by the random
                         <div className="flex-grow-1">
                             <div className="m-2">
                                 <div className="card-header">
-                                    <a href="https://quiet-tor-69912.herokuapp.com/signin" target="_blank"><h3 className="card-title">Short term rental aggrgator </h3></a>
+                                    <a href="https://quiet-tor-69912.herokuapp.com/signin" target="_blank"><h3 className="card-title">Short term rental aggregator </h3></a>
                                 </div>
                               
                                 <StrSlider slides={StrData}/>
