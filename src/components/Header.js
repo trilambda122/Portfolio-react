@@ -16,6 +16,10 @@ export default function header() {
             <Link to='/'>
                 <li className="nav-item"><a className="nav-link js-scroll-trigger">About</a></li>
             </Link>
+
+            <Link to="/portfolio">
+            <li className="nav-item"><a className="nav-link js-scroll-trigger">Portfolio</a></li>
+            </Link>  
             
             <Link to="/experince">
             <li className="nav-item"><a className="nav-link js-scroll-trigger">Experience</a></li>
@@ -26,21 +30,16 @@ export default function header() {
             </Link> 
                
             <Link to="/leadership">
-            <li className="nav-item"><a className="nav-link js-scroll-trigger">Leadership Values</a></li>
+            <li className="nav-item"><a className="nav-link js-scroll-trigger">Professional Values</a></li>
             </Link>  
 
              <Link to="/affiliations">
             <li className="nav-item"><a className="nav-link js-scroll-trigger">Professional Affiliations</a></li>
             </Link>    
 
-            <Link to="/portfolio">
-            <li className="nav-item"><a className="nav-link js-scroll-trigger">Portfolio</a></li>
-            </Link>  
               <a href="./assets/Shane_Schilling_Resume.pdf">
                   <li className="nav-item"><a  className="nav-link js-scroll-trigger" >Download Resume</a></li>
               </a>
-            
-
             </ul>
         
            
