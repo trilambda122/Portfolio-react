@@ -1,5 +1,5 @@
-{
-  "name": "hw20-portfolio-react",
+{ "homepage": "https://trilambda122.github.io/Portfolio-react",
+  "name": "Portfolio-react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
