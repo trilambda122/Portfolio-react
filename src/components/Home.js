@@ -27,6 +27,7 @@ export default function Home() {
 <img className="me-2 ms-2 img-thumbnail" src="./assets/icons/python-original.svg" width="30" alt="Python" /> Python
 <img className="me-2 ms-2 img-thumbnail" src="./assets/icons/mysql-original.svg" width="30" alt="MySQL" /> MySql
 <img className="me-2 ms-2 img-thumbnail" src="./assets/icons/postgresql-original.svg" width="30" alt="PostgreSQL" /> PostgreSQL
+<img className="me-2 ms-2 img-thumbnail" src="./assets/icons/sequelize-plain.svg" width="30" alt="MongoDb" /> Sequelize
 <img className="me-2 ms-2 img-thumbnail" src="./assets/icons/mongodb-original.svg" width="30" alt="MongoDb" /> MongoDb
 <img className="me-2 ms-2 img-thumbnail" src="./assets/icons/react-original.svg" width="30" alt="React" /> React
 <img className="me-2 ms-2 img-thumbnail" src="./assets/icons/bootstrap-plain.svg" width="30" alt="Bootstrap" /> Bootstrap
